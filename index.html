@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospectors Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Prospectors Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="workers.html">Workers</a></li>
+                <li class="nav-item"><a class="nav-link" href="land-history.html">Land History</a></li>
+                <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Prospectors Dashboard</h1>
+            <p class="lead">Explore live data and maps for the Prospectors game on WAX.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="maps/grand_map.png" class="card-img-top map" alt="Grand Map">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Map</h5>
+                        <p class="card-text">View the latest game map.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Links</h5>
+                        <ul>
+                            <li><a href="resources.html">Resource Maps</a></li>
+                            <li><a href="workers.html">Worker Statistics</a></li>
+                            <li><a href="land-history.html">Land History</a></li>
+                            <li><a href="tools.html">Tools</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
